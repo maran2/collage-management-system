@@ -1,0 +1,107 @@
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+ background: #006989;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  transition: background 0.5s, color 0.5s;
+}
+
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+/* Dashboard */
+.dashboard {
+  width: 90%;
+  max-width: 700px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+#themeToggle {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: inherit;
+  transition: transform 0.3s;
+}
+
+#themeToggle:hover {
+  transform: rotate(25deg);
+}
+
+/* Welcome Card */
+.welcome-card {
+  text-align: center;
+  margin: 25px 0;
+}
+
+.welcome-card span {
+  color: #ffeb3b;
+  font-weight: 600;
+}
+
+#datetime {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+/* Menu */
+.menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.35);
+}
+
+.logout {
+  background: #fd0d0dc9;
+}
+
+.logout:hover {
+  background: #ec1414f3;
+}

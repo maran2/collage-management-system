@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif;}
+         body { background: linear-gradient(135deg, #006989, #004d66); min-height: 100vh; padding: 20px; color: #333;}
+        .container { max-width: 1200px; margin: 0 auto;  }
+        .card { background: #dbeafe; padding: 20px; margin: 15px 0; border-radius: 8px; border-left: 4px solid #2196F3; }
+        table { width: 100%; border-collapse: collapse; margin: 20px 0; background: white; }
+        th, td { border: 1px solid #dbeafe; padding: 12px; text-align: left; }
+        th { background-color: #2196F3; color: white; }
+        .btn { padding: 8px 15px; margin: 5px; border: none; border-radius: 4px; cursor: pointer; text-decoration: none; display: inline-block; }
+        .btn-info { background: #17a2b8; color: white; }
+        .percentage-high { color: #4CAF50; font-weight: bold; }
+        .percentage-medium { color: #ff9800; font-weight: bold; }
+        .percentage-low { color: #f44336; font-weight: bold; }
+        .stats { display: flex; gap: 20px; margin: 20px 0; flex-wrap: wrap; }
+        .stat-card { flex: 1; min-width: 200px; background: #dbeafe; padding: 15px; border-radius: 8px; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .subject-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0; }
+        .subject-box { background: white; padding: 20px; border-radius: 8px; border: 2px solid #e0e0e0; }
+        .subject-box h4 { margin: 0 0 15px 0; color: #2196F3; border-bottom: 2px solid #2196F3; padding-bottom: 8px; }
+        .progress-bar { width: 100%; height: 20px; background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 10px 0; }
+        .progress-fill { height: 100%; background: #4CAF50; transition: width 0.3s ease; }
+        .student-info-box { background: white; padding: 20px; border-radius: 8px; border: 2px solid #2196F3; margin-bottom: 20px; }
+        .student-info-box h3 { margin: 0 0 15px 0; color: #2196F3; }
+        .warning-box { background: #fff3cd; border: 1px solid #ffeaa7; color: #856404; padding: 15px; border-radius: 5px; margin: 15px 0; }
+        .no-data { text-align: center; padding: 40px; font-style: italic; color: #666; background: white; border-radius: 8px; }
+
+
+
+        
